@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    {% feed_meta %}
+    {% seo %}
+    <link rel="stylesheet" href="/css/site.css">
+  </head>
+  <body class="m-0 flex flex-col min-h-screen">
+    {% include nav.html %}
+    <section class="flex-grow">
+      {{ content }}
+    </section>
+
+    {% include footer.html %}
+
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>
+
