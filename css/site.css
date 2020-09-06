@@ -2,10 +2,6 @@
 ---
 /* Front matter is necessary for Jekyll */
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "_includes/syntax";
-
 /* Write your styles below this line. */
 html {
   font-family: sans-serif;
@@ -191,4 +187,3 @@ a {
 
 /* Write your styles above this line. */
 
-@tailwind utilities;
