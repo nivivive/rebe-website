@@ -16,10 +16,6 @@ body {
   background-color: #f4f4f4;
 }
 
-a {
-  color: #000;
-}
-
 .gradient {
 	background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
